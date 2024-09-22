@@ -1,0 +1,63 @@
+/* Selecciona todos los elementos */
+* {
+    margin: 100;
+    padding: 100;
+}
+
+/* Selecciona por etiqueta */
+h1 {
+    color: blue;
+}
+
+/* Selecciona por clase */
+.intro {
+    font-size: 18px;
+}
+
+/* Selecciona por ID */
+#main-header {
+    background-color: yellow;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url('./imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.item {
+    background-color: lightblue;
+}
+
+button {
+    background-color: blue;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+}
+
+table {
+    margin: 0 auto;
+  }
